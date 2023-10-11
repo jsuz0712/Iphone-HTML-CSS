@@ -1,0 +1,91 @@
+*{
+    background-color: var(--secondary-bg);
+    --primary-bg: rgba(44,62,80 ,1);
+    --secondary-bg: rgba(0,0,0,0.9);
+    --box-shadow-color-1: gold;
+    --box-shadow-color-2: rgba(149,165,166 ,0.1);
+    --box-shadow-color-3: #ecf0f1;
+}
+
+
+h2{
+    text-align: center;
+    color: white;
+    background-color: rgb(25 25 25);
+}
+
+
+.box{
+    position: absolute;
+    background-color: var(--secondary-b);
+    height: 45em;
+    width: 22em;
+    display: flex;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 3em;
+    box-shadow: -2px -2px 0px 0px var(--box-shadow-color-1), 4px 7px 0px 0px var(--box-shadow-color-2);
+}
+ .line{
+    background-color: var(--primary-bg);
+    height: 5px;
+    width: 45px;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 6.1em;
+    margin: auto;
+    border-radius: 10px;
+}
+.mini{
+    background-color:var(--primary-bg);
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5em;
+    margin: auto;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+
+}
+.hole{
+    background-color:var(--primary-bg);
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 5em;
+    top: 5.8em;
+    margin: auto;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;    
+}
+.screen{
+    background-color: var(--primary-bg);
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 9em;
+    height: 35.9em;
+    width: 19em;
+    border-radius: 3px;
+}
+.button{
+    background-color: var(--secondary-b);
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -27px;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    box-shadow: -1px 1px 1px 0px var(--box-shadow-color-1), 1px -1px 1px 0px var(--box-shadow-color-2);
+}
